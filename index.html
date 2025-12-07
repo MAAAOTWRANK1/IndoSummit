@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndoSummit - The Beauty of Indonesia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="ambient-glow"></div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-filter-left"></i> INDOSUMMIT
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#explore">Jelajah</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Tiket</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                </ul>
+                <a href="#" class="btn btn-outline-light rounded-pill px-4 btn-sm">Sign In</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section d-flex align-items-center justify-content-center">
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+            <p class="text-info text-uppercase tracking-wide mb-2 small">Information & Directory</p>
+            <h1 class="hero-title">THE BEAUTY OF<br>INDONESIAN MOUNTAINS</h1>
+            
+            <p class="text-muted mb-5" style="max-width: 600px; margin: 0 auto;">
+                Temukan informasi jalur pendakian, status buka-tutup, dan akses booking resmi taman nasional dalam satu portal terintegrasi.
+            </p>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-6">
+                    <form action="" method="GET">
+                        <div class="search-box-glass">
+                            <i class="bi bi-search text-white me-3"></i>
+                            <input type="text" placeholder="Cari gunung (contoh: Semeru, Rinjani)...">
+                            <button type="submit" class="search-btn-glass"><i class="bi bi-arrow-right"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row g-3 justify-content-center mt-4">
+                <div class="col-md-3 col-6">
+                    <div class="glass-card py-3 px-3 text-start">
+                        <small class="text-muted d-block mb-1">Status Gunung</small>
+                        <h5 class="mb-0 fw-bold text-white"><i class="bi bi-check-circle-fill text-success"></i> 24 Open</h5>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="glass-card py-3 px-3 text-start">
+                        <small class="text-muted d-block mb-1">Cuaca Rata-rata</small>
+                        <h5 class="mb-0 fw-bold text-white"><i class="bi bi-cloud-sun text-warning"></i> Cerah</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="topo-lines d-none d-md-block"></div>
+    </section>
+
+    <section id="explore" class="container py-5 position-relative">
+        <div class="d-flex justify-content-between align-items-end mb-5">
+            <div>
+                <small class="text-info text-uppercase">Explore</small>
+                <h2 class="fw-bold display-6">Destinasi Populer</h2>
+            </div>
+            <div class="text-muted">
+                <button class="btn btn-outline-secondary rounded-circle btn-sm"><i class="bi bi-arrow-left"></i></button>
+                <button class="btn btn-outline-light rounded-circle btn-sm ms-2"><i class="bi bi-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            
+            <div class="col-md-4">
+                <div class="glass-card h-100 position-relative">
+                    <span class="num-card-title">01</span>
+                    <img src="https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=150&q=80" class="card-content-img" alt="Semeru">
+                    <div class="card-real-title mb-2">Gunung Semeru</div>
+                    <p class="text-muted small">Jawa Timur • 3.676 mdpl</p>
+                    <p class="small text-white-50">Gunung tertinggi di Pulau Jawa dengan danau Ranu Kumbolo yang ikonik.</p>
+                    <a href="detail.html" class="text-info text-decoration-none small mt-3 d-inline-block">See details <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="glass-card h-100 position-relative" style="background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(0,194,255,0.1)); border: 1px solid rgba(0,194,255,0.3);">
+                    <span class="num-card-title">02</span>
+                    <img src="https://images.unsplash.com/photo-1605553331427-047df1af5d89?auto=format&fit=crop&w=150&q=80" class="card-content-img" alt="Rinjani">
+                    <div class="card-real-title mb-2">Gunung Rinjani</div>
+                    <p class="text-muted small">Lombok • 3.726 mdpl</p>
+                    <p class="small text-white-50">Tantangan pendakian 3-4 hari dengan pemandangan Segara Anak.</p>
+                    <a href="detail.html" class="text-info text-decoration-none small mt-3 d-inline-block">See details <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="glass-card h-100 position-relative">
+                    <span class="num-card-title">03</span>
+                    <img src="https://images.unsplash.com/photo-1545562083-c583d014b261?auto=format&fit=crop&w=150&q=80" class="card-content-img" alt="Gede">
+                    <div class="card-real-title mb-2">Gunung Gede</div>
+                    <p class="text-muted small">Jawa Barat • 2.958 mdpl</p>
+                    <p class="small text-white-50">Cocok untuk pemula dengan akses yang dekat dari ibu kota.</p>
+                    <a href="detail.html" class="text-info text-decoration-none small mt-3 d-inline-block">See details <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container py-5">
+        <div class="glass-card p-0 overflow-hidden">
+            <div class="row align-items-center">
+                <div class="col-md-7 p-5">
+                    <small class="text-success text-uppercase fw-bold mb-2 d-block">Official Access</small>
+                    <h2 class="fw-bold mb-3">Siap Mendaki?</h2>
+                    <p class="text-muted mb-4">Cek ketersediaan kuota pendakian dan lakukan booking langsung ke website resmi Taman Nasional yang dituju.</p>
+                    <button class="btn btn-light rounded-pill px-4 fw-bold">Cari Tujuan <i class="bi bi-arrow-up-right"></i></button>
+                </div>
+                <div class="col-md-5 bg-gradient-primary h-100 position-relative" style="min-height: 250px; background: url('https://images.unsplash.com/photo-1516939884455-14a5cbe810d1?auto=format&fit=crop&w=800&q=80') center/cover;">
+                    <div style="position:absolute; top:0; left:0; width:100%; height:100%; background: linear-gradient(to right, var(--bg-dark), transparent);"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center text-md-start">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 class="fw-bold text-white">INDOSUMMIT</h5>
+                    <p class="text-muted small">Platform informasi pendakian terintegrasi untuk petualang Indonesia.</p>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h6 class="text-white">Information</h6>
+                    <ul class="list-unstyled small text-muted">
+                        <li><a href="#" class="text-decoration-none text-muted">Facilities</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">News</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h6 class="text-white">Useful Links</h6>
+                    <ul class="list-unstyled small text-muted">
+                        <li><a href="#" class="text-decoration-none text-muted">Terms</a></li>
+                        <li><a href="#" class="text-decoration-none text-muted">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-top border-secondary pt-3 mt-3 text-center small text-muted">
+                &copy; 2025 IndoSummit. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
